@@ -1,0 +1,33 @@
+# Java and Maven output
+target/
+*.class
+*.log
+*.tsbuildinfo
+
+# Node artifacts, if tooling is added
+node_modules/
+dist/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+.secrets/
+secrets/
+*.secret
+*.key
+*.pem
+*.p12
+
+# Logs and runtime data
+logs/
+storage/
+
+# IDE
+.idea/
+.vscode/*.code-workspace
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
