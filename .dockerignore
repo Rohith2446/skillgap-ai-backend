@@ -1,0 +1,17 @@
+.git
+.github
+.idea
+.vscode
+target
+*.log
+.env
+.env.*
+!.env.example
+.secrets
+secrets
+*.secret
+*.key
+*.pem
+*.p12
+Dockerfile*
+README.md
